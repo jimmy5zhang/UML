@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-28T04:16:15.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="Dfe1LoL46RWQcveJT5Eg" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-12T12:33:51.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="LpG4e12ANQ9t_OOxTjgG" version="12.8.4" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="945" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
           <mxGeometry x="480" y="530" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p6NHeroqPzgnWThW8GJD-2" value="FileMCManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="350" width="320" height="150" as="geometry" />
+          <mxGeometry x="260" y="320" width="320" height="180" as="geometry" />
         </mxCell>
         <object label="- fileMonitor: IFileMonitor&#xa;- fileClear: IFileClear" id="p6NHeroqPzgnWThW8GJD-3">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
@@ -37,8 +37,8 @@
         <mxCell id="p6NHeroqPzgnWThW8GJD-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
           <mxGeometry y="70" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="p6NHeroqPzgnWThW8GJD-5" value="+ setFileMonitor(IFileMonitor fileMonitor): FileMCManager&#xa;+ setFileClear(IFileClear fileClear): FileMCManager&#xa;+ reportFilesSize(JsonObject obj): void&#xa;+ cleanBigFiles(String[] fileList): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
-          <mxGeometry y="78" width="320" height="72" as="geometry" />
+        <mxCell id="p6NHeroqPzgnWThW8GJD-5" value="+ configBigFileDefined(): FileMCManager&#xa;+ setMonitorDuration(): FileMCManager&#xa;+ setFileMonitor(IFileMonitor fileMonitor): FileMCManager&#xa;+ setFileClear(IFileClear fileClear): FileMCManager&#xa;+ reportFilesSize(JsonObject obj): void&#xa;+ cleanBigFiles(String[] fileList): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
+          <mxGeometry y="78" width="320" height="102" as="geometry" />
         </mxCell>
         <mxCell id="p6NHeroqPzgnWThW8GJD-19" value="App" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="70" y="670" width="729" height="180" as="geometry" />
