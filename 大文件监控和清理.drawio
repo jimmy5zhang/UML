@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-23T07:25:19.222Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="Y4NrvF1pmqw3XpHc4tM9" version="12.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-23T07:43:33.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15" etag="GfRSZfA2kytOWyqcmRVy" version="12.8.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="p6NHeroqPzgnWThW8GJD-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
           <mxGeometry y="70" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="p6NHeroqPzgnWThW8GJD-5" value="+ configBigFileDefined(): FileMCManager&#xa;+ setMonitorDuration(): FileMCManager&#xa;+ setFileMonitor(IFileMonitor fileMonitor): FileMCManager&#xa;+ setFileClear(IFileClear fileClear): FileMCManager&#xa;+ reportFilesSize(): void&#xa;+ cleanBigFiles(FileMessage m): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
+        <mxCell id="p6NHeroqPzgnWThW8GJD-5" value="+ isBigFile(filePath): FileMCManager&#xa;+ isNeedReport(file , currentTime): FileMCManager&#xa;+ setFileMonitor(IFileMonitor fileMonitor): FileMCManager&#xa;+ setFileClear(IFileClear fileClear): FileMCManager&#xa;+ reportFilesSize(): void&#xa;+ cleanBigFiles(FileMessage m): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p6NHeroqPzgnWThW8GJD-2" vertex="1">
           <mxGeometry y="78" width="320" height="102" as="geometry" />
         </mxCell>
         <mxCell id="p6NHeroqPzgnWThW8GJD-19" value="App" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
             <mxPoint x="730" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vw2huq3PSX33KJCZusV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="p6NHeroqPzgnWThW8GJD-3">
+        <mxCell id="0vw2huq3PSX33KJCZusV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5d2195bd80daf111-18" target="p6NHeroqPzgnWThW8GJD-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="530" as="sourcePoint" />
             <mxPoint x="257.76" y="361.004" as="targetPoint" />
